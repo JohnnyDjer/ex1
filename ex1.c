@@ -57,11 +57,10 @@ printf("Number with bit %d toggled: %d\n", userBitPosition, userNum);
   printf("\nEven - Odd:\n");
   /* Scan an integer
   If the number is even - print 1, else - print 0. */
-printf("\nEven - Odd:\n");
 int userNumNew;
 printf("Please enter a number:\n");
 scanf("%d", &userNumNew);
-  
+printf("%d\n", (userNumNew & 1));
   // 3, 5, 7, 11
   printf("\n3, 5, 7, 11:\n");
   /* Scan two integers in octal base
