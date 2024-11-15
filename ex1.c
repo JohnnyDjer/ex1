@@ -19,7 +19,7 @@ scanf("%d",&userNum);
 printf("Please enter a position:\n");
 scanf("%d", &userBitPosition);
 result = (userNum >> userBitPosition) & 1;
-printf("The bit in position %d of number %d is %d\n", userBitPosition, userNum,result);
+printf("The bit in position %d of number %d is: %d\n", userBitPosition, userNum,result);
   // Set bit
   printf("\nSet bit:\n");
   /*Scan two integers (representing number and a position)
@@ -67,9 +67,9 @@ printf("%d\n", !(userNumNew & 1));
   sum them up and print the result in hexadecimal base
   Print only 4 bits, in positions: 3,5,7,11 in the result. */
 int userNumOct1, userNumOct2, sumInHexa;
-printf("Please enter the first number (octal):");
+printf("Please enter the first number (octal):\n");
 scanf(" %o",&userNumOct1);
-printf("Please enter the second number (octal):");
+printf("Please enter the second number (octal):\n");
 scanf(" %o",&userNumOct2);
 sumInHexa = userNumOct1 + userNumOct2;
 printf("The sum in hexadecimal: %X\n", sumInHexa);
