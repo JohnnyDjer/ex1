@@ -60,7 +60,7 @@ printf("Number with bit %d toggled: %d\n", userBitPosition, userNum);
 int userNumNew;
 printf("Please enter a number:\n");
 scanf("%d", &userNumNew);
-printf("%d\n", (userNumNew & 1));
+printf("%d\n", !(userNumNew & 1));
   // 3, 5, 7, 11
   printf("\n3, 5, 7, 11:\n");
   /* Scan two integers in octal base
